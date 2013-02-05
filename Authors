@@ -1,0 +1,22 @@
+Authors:
+
+Matthew Whitworth <mwhitworth@whitix.org>
+
+Contributors:
+
+Kostadin Damianov <maxmight@gmail.com>
+	o Addition of a burn 'prompt' command
+	o Retheming the xynth desktop
+
+Pierre Pronchery <khorben@defora.org>
+	o Various Makefile fixes for BSD make
+
+Arshad Hussain <arshad.super@gmail.com>
+	o Various bug reports, comments and suggestions
+
+Alper Akcan <alper.akcan@gmail.com>
+	o Author of Xynth (http://www.xynth.org), the windowing system currently used by Whitix
+
+Adam Dutko <dutko.adam@gmail.com>
+	o portlist file fixes, various Makefile fixes
+	o Versioning and exit fixes for burn

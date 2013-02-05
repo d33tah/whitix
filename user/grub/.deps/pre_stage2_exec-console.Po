@@ -1,0 +1,14 @@
+pre_stage2_exec-console.o pre_stage2_exec-console.o: console.c shared.h \
+  ../config.h ../stage1/stage1.h mb_header.h mb_info.h term.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+term.h:

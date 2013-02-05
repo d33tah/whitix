@@ -1,0 +1,19 @@
+pre_stage2_exec-fsys_fat.o pre_stage2_exec-fsys_fat.o: fsys_fat.c \
+  shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h filesys.h \
+  pc_slice.h fat.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+filesys.h:
+
+pc_slice.h:
+
+fat.h:

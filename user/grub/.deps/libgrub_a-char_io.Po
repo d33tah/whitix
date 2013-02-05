@@ -1,0 +1,71 @@
+libgrub_a-char_io.o libgrub_a-char_io.o: char_io.c shared.h ../config.h \
+  ../stage1/stage1.h /usr/include/ncurses.h /usr/include/ncurses_dll.h \
+  /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h \
+  /usr/lib/gcc/i486-linux-gnu/4.2.3/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.2.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/unctrl.h /usr/include/curses.h \
+  /usr/lib/gcc/i486-linux-gnu/4.2.3/include/stdbool.h mb_header.h \
+  mb_info.h term.h hercules.h serial.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+/usr/include/ncurses.h:
+
+/usr/include/ncurses_dll.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.2.3/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.2.3/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/unctrl.h:
+
+/usr/include/curses.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.2.3/include/stdbool.h:
+
+mb_header.h:
+
+mb_info.h:
+
+term.h:
+
+hercules.h:
+
+serial.h:

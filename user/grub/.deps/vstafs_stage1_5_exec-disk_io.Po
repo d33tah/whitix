@@ -1,0 +1,19 @@
+vstafs_stage1_5_exec-disk_io.o vstafs_stage1_5_exec-disk_io.o: disk_io.c \
+  shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h filesys.h \
+  pc_slice.h freebsd.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+filesys.h:
+
+pc_slice.h:
+
+freebsd.h:

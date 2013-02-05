@@ -1,0 +1,19 @@
+xfs_stage1_5_exec-fsys_xfs.o xfs_stage1_5_exec-fsys_xfs.o: fsys_xfs.c \
+  shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h filesys.h \
+  pc_slice.h xfs.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+filesys.h:
+
+pc_slice.h:
+
+xfs.h:

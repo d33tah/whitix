@@ -1,0 +1,19 @@
+pre_stage2_exec-terminfo.o pre_stage2_exec-terminfo.o: terminfo.c \
+  shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h \
+  terminfo.h tparm.h serial.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+terminfo.h:
+
+tparm.h:
+
+serial.h:

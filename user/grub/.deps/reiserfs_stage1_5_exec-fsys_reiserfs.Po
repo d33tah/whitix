@@ -1,0 +1,18 @@
+reiserfs_stage1_5_exec-fsys_reiserfs.o \
+  reiserfs_stage1_5_exec-fsys_reiserfs.o: fsys_reiserfs.c shared.h \
+  ../config.h ../stage1/stage1.h mb_header.h mb_info.h filesys.h \
+  pc_slice.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+filesys.h:
+
+pc_slice.h:

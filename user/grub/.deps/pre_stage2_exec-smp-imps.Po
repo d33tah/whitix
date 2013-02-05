@@ -1,0 +1,17 @@
+pre_stage2_exec-smp-imps.o pre_stage2_exec-smp-imps.o: smp-imps.c \
+  shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h apic.h \
+  smp-imps.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+apic.h:
+
+smp-imps.h:

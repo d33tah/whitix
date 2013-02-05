@@ -1,0 +1,19 @@
+iso9660_stage1_5_exec-fsys_iso9660.o iso9660_stage1_5_exec-fsys_iso9660.o:  \
+ fsys_iso9660.c shared.h ../config.h ../stage1/stage1.h mb_header.h \
+  mb_info.h filesys.h pc_slice.h iso9660.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+filesys.h:
+
+pc_slice.h:
+
+iso9660.h:

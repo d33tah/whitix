@@ -1,0 +1,27 @@
+ffs_stage1_5_exec-fsys_ffs.o ffs_stage1_5_exec-fsys_ffs.o: fsys_ffs.c \
+  shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h filesys.h \
+  pc_slice.h defs.h disk_inode.h disk_inode_ffs.h dir.h fs.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+filesys.h:
+
+pc_slice.h:
+
+defs.h:
+
+disk_inode.h:
+
+disk_inode_ffs.h:
+
+dir.h:
+
+fs.h:

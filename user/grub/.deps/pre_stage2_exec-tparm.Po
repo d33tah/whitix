@@ -1,0 +1,14 @@
+pre_stage2_exec-tparm.o pre_stage2_exec-tparm.o: tparm.c shared.h \
+  ../config.h ../stage1/stage1.h mb_header.h mb_info.h tparm.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+tparm.h:

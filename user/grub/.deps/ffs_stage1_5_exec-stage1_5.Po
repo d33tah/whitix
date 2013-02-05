@@ -1,0 +1,12 @@
+ffs_stage1_5_exec-stage1_5.o ffs_stage1_5_exec-stage1_5.o: stage1_5.c \
+  shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:

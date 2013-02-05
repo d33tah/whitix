@@ -1,0 +1,12 @@
+pre_stage2_exec-cmdline.o pre_stage2_exec-cmdline.o: cmdline.c shared.h \
+  ../config.h ../stage1/stage1.h mb_header.h mb_info.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:

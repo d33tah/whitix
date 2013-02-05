@@ -1,0 +1,11 @@
+default 0
+timeout 0 
+hiddenmenu
+
+# Whitix
+title Whitix 0.2 CD
+kernel --no-mem-option --type=multiboot /Boot/Kernel root=AtaCd0
+module /System/Modules/Core/console.sys
+module /System/Modules/Core/cdfs.sys
+module /System/Modules/Core/ata_ide.sys
+quiet

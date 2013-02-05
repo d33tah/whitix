@@ -1,0 +1,14 @@
+
+Edit Makefile.cfg (or copy one of Makefile.cfg.*) and xynth.conf for your needs
+
+make all
+make dist
+make install
+
+after instalation xynth.conf will be located at $(CONFDIR).
+
+xynth& sleep 3; term
+
+or,
+
+xynth& sleep 3; desktop

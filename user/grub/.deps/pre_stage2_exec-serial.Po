@@ -1,0 +1,19 @@
+pre_stage2_exec-serial.o pre_stage2_exec-serial.o: serial.c shared.h \
+  ../config.h ../stage1/stage1.h mb_header.h mb_info.h serial.h term.h \
+  terminfo.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+serial.h:
+
+term.h:
+
+terminfo.h:

@@ -1,0 +1,8 @@
+
+.c.o:
+	@echo "  \033[32mCC $*.c"
+	@tput sgr0
+	@$(CC) $(CFLAGS) -c $*.c -o $*.o
+
+.S.o:
+	$(CC) $(ASFLAGS) -m32 -c $*.S -o $*.o

@@ -1,0 +1,19 @@
+pre_stage2_exec-fsys_vstafs.o pre_stage2_exec-fsys_vstafs.o:  \
+ fsys_vstafs.c shared.h ../config.h ../stage1/stage1.h mb_header.h \
+  mb_info.h filesys.h pc_slice.h vstafs.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+filesys.h:
+
+pc_slice.h:
+
+vstafs.h:

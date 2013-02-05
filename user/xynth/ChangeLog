@@ -1,0 +1,1719 @@
+
+Mon 22 Oct 2007 12:02:44 PM EEST
+	- revision 920
+	- released version 0.8.90
+
+Tue 31 Jul 2007 02:18:13 PM EEST
+	* M ChangeLog,
+	M Makefile,
+	M Makefile.cfg,
+	M Makefile.cfg.gp2x,
+	M Makefile.cfg.linux,
+	M Makefile.cfg.linux.single,
+	M Makefile.cfg.mingw,
+	M Makefile.cfg.pspdev,
+	M Makefile.parse,
+	M Makefile.rules,
+	M demo/Makefile,
+	M demo/child/Makefile,
+	M demo/desktop/Makefile,
+	M demo/desktop/desktop.c,
+	M demo/desktop/menu.c,
+	M demo/desktop/taskbar.c,
+	M demo/hide/Makefile,
+	M demo/img/Makefile,
+	M demo/img/img.c,
+	M demo/load/Makefile,
+	M demo/load/load.c,
+	M demo/mines/Makefile,
+	M demo/mines/mines.cpp,
+	M demo/object/Makefile,
+	M demo/onscreenkeyboard/Makefile,
+	M demo/onscreenkeyboard/onscreenkeyboard.c,
+	M demo/simple/Makefile,
+	M demo/temp/Makefile,
+	M demo/term/Makefile,
+	M demo/term/term.c,
+	M demo/timer/Makefile,
+	M demo/widgetx/Makefile,
+	M demo/xynthlogout/Makefile,
+	A ports/gtk/gtk+-2.10.13,
+	D ports/gtk/gtk+-2.10.13,
+	A ports/gtk/gtk+-2.10.13-xynth.diff,
+	D ports/gtk/gtk+-2.10.13-xynth.diff,
+	M ports/gtk/gtk+-2.10.13-xynth.diff,
+	A ports/gtk/gtk+-2.10.13/Makefile.am,
+	M ports/gtk/gtk+-2.10.13/Makefile.am,
+	A ports/gtk/gtk+-2.10.13/gdkcolor-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkcolor-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkcursor-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkdisplay-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkdisplay-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkdisplay-xynth.h,
+	M ports/gtk/gtk+-2.10.13/gdkdisplay-xynth.h,
+	A ports/gtk/gtk+-2.10.13/gdkdnd-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkdnd-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkdrawable-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkdrawable-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkevents-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkfont-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkgc-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkgc-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkgeometry-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkgeometry-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkglobals-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkglobals-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkim-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkimage-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkimage-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkinput-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkkeys-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkmain-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkpixmap-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkpixmap-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkprivate-xynth.h,
+	M ports/gtk/gtk+-2.10.13/gdkprivate-xynth.h,
+	A ports/gtk/gtk+-2.10.13/gdkproperty-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkproperty-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkscreen-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkscreen-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkselection-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkspwan-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkspwan-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkvisual-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkvisual-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkwindow-xynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkwindow-xynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkxynth.c,
+	M ports/gtk/gtk+-2.10.13/gdkxynth.c,
+	A ports/gtk/gtk+-2.10.13/gdkxynth.h,
+	M ports/gtk/gtk+-2.10.13/gdkxynth.h,
+	A ports/gtk/gtk+-2.10.x,
+	A ports/gtk/gtk+-2.10.x-xynth.diff,
+	A ports/gtk/gtk+-2.10.x/Makefile.am,
+	A ports/gtk/gtk+-2.10.x/gdkcolor-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkcolor-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkcursor-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkcursor-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkdisplay-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkdisplay-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkdisplay-xynth.h,
+	M ports/gtk/gtk+-2.10.x/gdkdisplay-xynth.h,
+	A ports/gtk/gtk+-2.10.x/gdkdnd-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkdnd-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkdrawable-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkdrawable-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkevents-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkevents-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkfont-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkgc-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkgc-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkgeometry-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkgeometry-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkglobals-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkim-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkimage-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkimage-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkinput-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkinput-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkinput-xynth.h,
+	M ports/gtk/gtk+-2.10.x/gdkinput-xynth.h,
+	A ports/gtk/gtk+-2.10.x/gdkkeys-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkkeys-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkmain-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkmain-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkpixmap-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkpixmap-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkprivate-xynth.h,
+	M ports/gtk/gtk+-2.10.x/gdkprivate-xynth.h,
+	A ports/gtk/gtk+-2.10.x/gdkproperty-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkscreen-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkscreen-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkselection-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkspwan-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkvisual-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkvisual-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkwindow-xynth.c,
+	M ports/gtk/gtk+-2.10.x/gdkwindow-xynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkxynth.c,
+	A ports/gtk/gtk+-2.10.x/gdkxynth.h,
+	M ports/gtk/gtk+-2.10.x/gdkxynth.h,
+	A ports/gtk/gtk+-2.10.x/x-cursors.xbm,
+	D ports/gtk/gtk+-2.6.10,
+	D ports/gtk/gtk+-2.6.10-xynth.diff,
+	D ports/gtk/gtk+-svn.diff,
+	M ports/kaffe/xynth/graphic.c,
+	M ports/links/xynth.c,
+	M ports/ports.sh,
+	M src/Makefile,
+	M src/configs/Makefile,
+	M src/configs/xynth.conf,
+	M src/fonts/Makefile,
+	M src/lib/Makefile,
+	M src/lib/debug.c,
+	A src/lib/expat/Makefile,
+	M src/lib/expat/Makefile,
+	M src/lib/font.c,
+	A src/lib/freetype2/Makefile,
+	M src/lib/freetype2/ftbitmap.c,
+	M src/lib/freetype2/include/freetype/freetype.h,
+	M src/lib/freetype2/ttgload.c,
+	M src/lib/grlib.c,
+	M src/lib/image.c,
+	A src/lib/libpng/Makefile,
+	M src/lib/libpng/Makefile,
+	M src/lib/libpng/README,
+	M src/lib/libpng/png.c,
+	M src/lib/libpng/png.h,
+	M src/lib/libpng/pngconf.h,
+	M src/lib/libpng/pngerror.c,
+	M src/lib/libpng/pngrtran.c,
+	M src/lib/libpng/pngrutil.c,
+	M src/lib/libpng/pngset.c,
+	M src/lib/libpng/pngtrans.c,
+	M src/lib/libpng/pngwutil.c,
+	A src/lib/libz/Makefile,
+	M src/lib/pipe_mem.c,
+	M src/lib/pipe_posix.c,
+	A src/lib/pixman/Makefile,
+	M src/lib/pixman/Makefile,
+	M src/lib/pixman/fbcompose.c,
+	M src/lib/pixman/fbmmx.c,
+	M src/lib/pixman/fbpict.c,
+	M src/lib/pixman/icint.h,
+	M src/lib/pixman/pixman.h,
+	A src/lib/region.c,
+	M src/lib/render.c,
+	M src/lib/socket.c,
+	M src/lib/socket_api.c,
+	M src/lib/socket_pipe.c,
+	M src/lib/surface.c,
+	M src/lib/thread.c,
+	M src/lib/window.c,
+	M src/lib/xynth.h,
+	M src/lib/xynth_.h,
+	M src/python/Makefile,
+	M src/server/Makefile,
+	M src/server/cursor.h,
+	M src/server/irr.c,
+	M src/server/mouse.c,
+	M src/server/server.c,
+	M src/server/server.h,
+	M src/server/single.c,
+	M src/server/socket.c,
+	M src/server/theme_static.h,
+	M src/server/video/fb/fb.c,
+	M src/server/video/fb/server.c,
+	M src/server/video/helper/kbd.c,
+	M src/server/video/pspdev/event.c,
+	M src/server/video/sdl/server.c,
+	M src/server/window.c,
+	M src/themes/Makefile,
+	M src/themes/keramik/Makefile,
+	M src/themes/microgui/Makefile,
+	M src/themes/silverado/Makefile,
+	M src/widget/Makefile,
+	M src/widget/effect.c,
+	M src/widget/object.c,
+	M src/widget/widgetc/Makefile,
+	M src/widget/widgetc/list.c,
+	M src/widget/widgetc/xml.c,
+	M src/widget/widgetr/Makefile,
+	M src/widget/widgetr/widgetr.c,
+	M tools/theme/Makefile :
+	
+	minor stability fixes, third party library updates, build system fixes,
+	gtk port startup, widget library fixes.
+
+Wed 11 Apr 2007 04:45:31 PM EEST
+	* M Makefile,
+	M Makefile.parse,
+	M Makefile.rules,
+	M demo/widgetx/Makefile,
+	A ports/cairo,
+	A ports/cairo/cairo-1.4.2-xynth.diff,
+	M ports/cairo/cairo-1.4.2-xynth.diff,
+	A ports/cairo/cairo-xynth-surface.c,
+	M ports/cairo/cairo-xynth-surface.c,
+	A ports/gtk/gtk+-2.6.10,
+	A ports/gtk/gtk+-2.6.10/Makefile.am,
+	A ports/gtk/gtk+-2.6.10/gdk-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdk-xynth.h,
+	A ports/gtk/gtk+-2.6.10/gdkcolormap-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkdisplay-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkdnd-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkdrawable-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkevent-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkgc-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkimage-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkinput-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkmain-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkpango-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkpixmap-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkproperty-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkscreen-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkvisual-xynth.c,
+	A ports/gtk/gtk+-2.6.10/gdkwindow-xynth.c,
+	A ports/gtk/gtk+-svn.diff,
+	D ports/gtk/xynth,
+	D ports/links/links-2.1pre23-xynth.diff,
+	A ports/links/links-2.1pre26-xynth.diff,
+	M ports/ports.sh,
+	D ports/sdl/SDL-1.2.10-xynth.diff,
+	A ports/sdl/SDL-1.2.11-xynth.diff,
+	M src/lib/Makefile,
+	M src/lib/freetype2/README,
+	M src/lib/freetype2/aflatin.c,
+	M src/lib/freetype2/aflatin.h,
+	M src/lib/freetype2/afloader.c,
+	M src/lib/freetype2/ftbitmap.c,
+	M src/lib/freetype2/ftobjs.c,
+	M src/lib/freetype2/include/freetype/config/ftconfig.h,
+	M src/lib/freetype2/include/freetype/freetype.h,
+	M src/lib/freetype2/include/freetype/ftimage.h,
+	M src/lib/freetype2/ttinterp.c,
+	M src/lib/libpng/README,
+	M src/lib/libpng/png.c,
+	M src/lib/libpng/png.h,
+	M src/lib/libpng/pngconf.h,
+	M src/lib/libpng/pngerror.c,
+	M src/lib/libpng/pngget.c,
+	M src/lib/libpng/pngmem.c,
+	M src/lib/libpng/pngpread.c,
+	M src/lib/libpng/pngread.c,
+	M src/lib/libpng/pngrio.c,
+	M src/lib/libpng/pngrtran.c,
+	M src/lib/libpng/pngrutil.c,
+	M src/lib/libpng/pngset.c,
+	M src/lib/libpng/pngtrans.c,
+	M src/lib/libpng/pngwio.c,
+	M src/lib/libpng/pngwrite.c,
+	M src/lib/libpng/pngwutil.c,
+	A src/lib/pixman,
+	A src/lib/pixman/config.h,
+	A src/lib/pixman/fbcompose.c,
+	A src/lib/pixman/fbedge.c,
+	A src/lib/pixman/fbedgeimp.h,
+	A src/lib/pixman/fbmmx.c,
+	A src/lib/pixman/fbmmx.h,
+	A src/lib/pixman/fbpict.c,
+	A src/lib/pixman/fbpict.h,
+	A src/lib/pixman/fbtrap.c,
+	A src/lib/pixman/icblt.c,
+	A src/lib/pixman/icbltone.c,
+	A src/lib/pixman/iccolor.c,
+	A src/lib/pixman/icformat.c,
+	A src/lib/pixman/icimage.c,
+	A src/lib/pixman/icimage.h,
+	A src/lib/pixman/icint.h,
+	A src/lib/pixman/icpixels.c,
+	A src/lib/pixman/icrect.c,
+	A src/lib/pixman/icrop.h,
+	A src/lib/pixman/icstipple.c,
+	A src/lib/pixman/ictransform.c,
+	A src/lib/pixman/ictrap.c,
+	A src/lib/pixman/ictri.c,
+	A src/lib/pixman/icutil.c,
+	A src/lib/pixman/pixman-remap.h,
+	M src/lib/pixman/pixman-remap.h,
+	A src/lib/pixman/pixman-xserver-compat.h,
+	A src/lib/pixman/pixman.h,
+	A src/lib/pixman/pixregion.c,
+	M src/lib/pixman/pixregion.c,
+	A src/lib/pixman/pixregionint.h,
+	A src/lib/pixman/renderedge.c,
+	A src/lib/pixman/renderedge.h,
+	A src/lib/render.c,
+	M src/lib/render.c,
+	M src/lib/xml.c,
+	M src/lib/xynth.h,
+	M src/widget/widgetc/Makefile,
+	A src/widget/widgetc/code.c,
+	M src/widget/widgetc/code.c,
+	A src/widget/widgetc/code.h,
+	M src/widget/widgetc/code.h,
+	D src/widget/widgetc/gen_code.c,
+	D src/widget/widgetc/gen_code.h,
+	D src/widget/widgetc/gen_header.c,
+	D src/widget/widgetc/gen_header.h,
+	A src/widget/widgetc/header.c,
+	M src/widget/widgetc/header.c,
+	A src/widget/widgetc/header.h,
+	M src/widget/widgetc/header.h,
+	D src/widget/widgetc/lang.c,
+	D src/widget/widgetc/lang.h,
+	D src/widget/widgetc/node.c,
+	D src/widget/widgetc/node.h,
+	D src/widget/widgetc/parse.c,
+	D src/widget/widgetc/parse.h,
+	M src/widget/widgetc/widgetc.c,
+	A src/widget/widgetc/xml.c,
+	M src/widget/widgetc/xml.c,
+	A src/widget/widgetc/xml.h,
+	M src/widget/widgetc/xml.h,
+	M src/widget/widgetr/code.c,
+	M src/widget/widgetr/widgetr.c,
+	A xynth.pc.in :
+	
+	to many chages, widgetc and widgetr rewritten, mush more clean and safe.
+	an update for freetype library
+	new cairo port
+	new render api
+	some doxygen additions
+
+Sun 18 Mar 2007 03:57:08 AM EET
+	* M demo/img/img.c,
+	M ports/gtk/xynth/gdk-xynth.c,
+	M ports/gtk/xynth/gdk-xynth.h,
+	M ports/gtk/xynth/gdkdisplay-xynth.c,
+	M ports/gtk/xynth/gdkdrawable-xynth.c,
+	M ports/gtk/xynth/gdkevent-xynth.c,
+	M ports/gtk/xynth/gdkgc-xynth.c,
+	M ports/gtk/xynth/gdkimage-xynth.c,
+	M ports/gtk/xynth/gdkinput-xynth.c,
+	M ports/gtk/xynth/gdkmain-xynth.c,
+	M ports/gtk/xynth/gdkwindow-xynth.c,
+	D ports/kaffe/kaffe-cvs-xynth.diff,
+	M src/lib/Makefile,
+	M src/lib/font.c,
+	M src/lib/freetype2/README,
+	M src/lib/freetype2/afangles.c,
+	M src/lib/freetype2/afcjk.c,
+	M src/lib/freetype2/afglobal.c,
+	M src/lib/freetype2/afhints.c,
+	M src/lib/freetype2/afhints.h,
+	M src/lib/freetype2/aflatin.c,
+	M src/lib/freetype2/afloader.c,
+	M src/lib/freetype2/afmodule.c,
+	M src/lib/freetype2/aftypes.h,
+	M src/lib/freetype2/ftbase.c,
+	M src/lib/freetype2/ftbitmap.c,
+	M src/lib/freetype2/ftcalc.c,
+	M src/lib/freetype2/ftdbgmem.c,
+	M src/lib/freetype2/ftgloadr.c,
+	M src/lib/freetype2/ftgrays.c,
+	M src/lib/freetype2/ftinit.c,
+	M src/lib/freetype2/ftobjs.c,
+	M src/lib/freetype2/ftoutln.c,
+	M src/lib/freetype2/ftrfork.c,
+	M src/lib/freetype2/ftsmooth.c,
+	M src/lib/freetype2/ftutil.c,
+	M src/lib/freetype2/include/freetype/config/ftheader.h,
+	M src/lib/freetype2/include/freetype/config/ftmodule.h,
+	M src/lib/freetype2/include/freetype/config/ftoption.h,
+	M src/lib/freetype2/include/freetype/config/ftstdlib.h,
+	M src/lib/freetype2/include/freetype/freetype.h,
+	M src/lib/freetype2/include/freetype/ftbitmap.h,
+	M src/lib/freetype2/include/freetype/ftchapters.h,
+	M src/lib/freetype2/include/freetype/fterrors.h,
+	A src/lib/freetype2/include/freetype/ftgasp.h,
+	M src/lib/freetype2/include/freetype/ftimage.h,
+	M src/lib/freetype2/include/freetype/ftincrem.h,
+	A src/lib/freetype2/include/freetype/ftlcdfil.h,
+	M src/lib/freetype2/include/freetype/ftlist.h,
+	M src/lib/freetype2/include/freetype/ftmac.h,
+	M src/lib/freetype2/include/freetype/ftotval.h,
+	M src/lib/freetype2/include/freetype/ftoutln.h,
+	M src/lib/freetype2/include/freetype/fttrigon.h,
+	M src/lib/freetype2/include/freetype/ftwinfnt.h,
+	M src/lib/freetype2/include/freetype/ftxf86.h,
+	M src/lib/freetype2/include/freetype/internal/autohint.h,
+	M src/lib/freetype2/include/freetype/internal/ftcalc.h,
+	M src/lib/freetype2/include/freetype/internal/ftdebug.h,
+	M src/lib/freetype2/include/freetype/internal/ftgloadr.h,
+	M src/lib/freetype2/include/freetype/internal/ftmemory.h,
+	M src/lib/freetype2/include/freetype/internal/ftobjs.h,
+	M src/lib/freetype2/include/freetype/internal/ftstream.h,
+	M src/lib/freetype2/include/freetype/internal/ftvalid.h,
+	M src/lib/freetype2/include/freetype/internal/psaux.h,
+	M src/lib/freetype2/include/freetype/internal/pshints.h,
+	M src/lib/freetype2/include/freetype/internal/services/svkern.h,
+	M src/lib/freetype2/include/freetype/internal/services/svotval.h,
+	M src/lib/freetype2/include/freetype/internal/services/svpostnm.h,
+	M src/lib/freetype2/include/freetype/internal/services/svpscmap.h,
+	M src/lib/freetype2/include/freetype/internal/services/svttcmap.h,
+	M src/lib/freetype2/include/freetype/internal/services/svxf86nm.h,
+	M src/lib/freetype2/include/freetype/internal/sfnt.h,
+	M src/lib/freetype2/include/freetype/internal/t1types.h,
+	M src/lib/freetype2/include/freetype/internal/tttypes.h,
+	M src/lib/freetype2/include/freetype/t1tables.h,
+	M src/lib/freetype2/include/freetype/ttnameid.h,
+	M src/lib/freetype2/include/freetype/tttables.h,
+	M src/lib/freetype2/sfdriver.c,
+	M src/lib/freetype2/sfobjs.c,
+	M src/lib/freetype2/truetype.c,
+	M src/lib/freetype2/ttcmap.c,
+	M src/lib/freetype2/ttdriver.c,
+	M src/lib/freetype2/ttgload.c,
+	M src/lib/freetype2/ttgload.h,
+	M src/lib/freetype2/ttgxvar.c,
+	M src/lib/freetype2/ttgxvar.h,
+	A src/lib/freetype2/ttinterp.c,
+	A src/lib/freetype2/ttinterp.h,
+	M src/lib/freetype2/ttkern.c,
+	M src/lib/freetype2/ttkern.h,
+	M src/lib/freetype2/ttload.c,
+	M src/lib/freetype2/ttmtx.c,
+	M src/lib/freetype2/ttobjs.c,
+	M src/lib/freetype2/ttobjs.h,
+	M src/lib/freetype2/ttpload.c,
+	M src/lib/freetype2/ttpost.c,
+	M src/lib/freetype2/ttsbit.c,
+	M src/lib/freetype2/ttsbit.h,
+	M src/lib/gettime.c,
+	A src/lib/hashtable.c,
+	M src/lib/image_png.c,
+	M src/lib/xml.c,
+	M src/lib/xynth.h,
+	M src/lib/xynth_.h,
+	M src/widget/Makefile,
+	A src/widget/clistbox.c,
+	M src/widget/frame.c,
+	M src/widget/listbox.c,
+	M src/widget/object.c,
+	M src/widget/scrollbuffer.c,
+	M src/widget/textbox.c,
+	M src/widget/widget.h,
+	M src/widget/widgetc/parse.c,
+	M src/widget/widgetr/Makefile,
+	M src/widget/widgetr/code.c,
+	M src/widget/widgetr/code.h,
+	M src/widget/widgetr/js.c,
+	M src/widget/widgetr/js.h,
+	D src/widget/widgetr/node.c,
+	D src/widget/widgetr/node.h,
+	D src/widget/widgetr/parse.c,
+	D src/widget/widgetr/parse.h,
+	D src/widget/widgetr/table.c,
+	D src/widget/widgetr/table.h,
+	M src/widget/widgetr/widgetr.c,
+	M src/widget/widgetr/widgetr.h,
+	M tools/optimize/Makefile:
+	
+	code cleanup, minor fixes, improvements. freetype code update.
+
+Wed 14 Feb 2007 05:04:50 PM EET
+	* M Makefile.parse,
+	M demo/desktop/Makefile,
+	M demo/desktop/taskbar.c,
+	M demo/object/object.c,
+	M demo/simple/simple.c,
+	M demo/xynthlogout/xynthlogout.c,
+	A ports/gtk/gtk+-2.6.10-xynth.diff,
+	M ports/gtk/gtk+-2.6.10-xynth.diff,
+	A ports/gtk/xynth,
+	A ports/gtk/xynth/Makefile.am,
+	M ports/gtk/xynth/Makefile.am,
+	A ports/gtk/xynth/gdk-xynth.c,
+	M ports/gtk/xynth/gdk-xynth.c,
+	A ports/gtk/xynth/gdk-xynth.h,
+	M ports/gtk/xynth/gdk-xynth.h,
+	A ports/gtk/xynth/gdkcolormap-xynth.c,
+	M ports/gtk/xynth/gdkcolormap-xynth.c,
+	A ports/gtk/xynth/gdkdisplay-xynth.c,
+	M ports/gtk/xynth/gdkdisplay-xynth.c,
+	A ports/gtk/xynth/gdkdnd-xynth.c,
+	M ports/gtk/xynth/gdkdnd-xynth.c,
+	A ports/gtk/xynth/gdkdrawable-xynth.c,
+	M ports/gtk/xynth/gdkdrawable-xynth.c,
+	A ports/gtk/xynth/gdkevent-xynth.c,
+	M ports/gtk/xynth/gdkevent-xynth.c,
+	A ports/gtk/xynth/gdkgc-xynth.c,
+	M ports/gtk/xynth/gdkgc-xynth.c,
+	A ports/gtk/xynth/gdkimage-xynth.c,
+	A ports/gtk/xynth/gdkinput-xynth.c,
+	M ports/gtk/xynth/gdkinput-xynth.c,
+	A ports/gtk/xynth/gdkmain-xynth.c,
+	M ports/gtk/xynth/gdkmain-xynth.c,
+	A ports/gtk/xynth/gdkpango-xynth.c,
+	M ports/gtk/xynth/gdkpango-xynth.c,
+	A ports/gtk/xynth/gdkpixmap-xynth.c,
+	M ports/gtk/xynth/gdkpixmap-xynth.c,
+	A ports/gtk/xynth/gdkproperty-xynth.c,
+	M ports/gtk/xynth/gdkproperty-xynth.c,
+	A ports/gtk/xynth/gdkscreen-xynth.c,
+	M ports/gtk/xynth/gdkscreen-xynth.c,
+	A ports/gtk/xynth/gdkvisual-xynth.c,
+	M ports/gtk/xynth/gdkvisual-xynth.c,
+	A ports/gtk/xynth/gdkwindow-xynth.c,
+	M ports/gtk/xynth/gdkwindow-xynth.c,
+	M ports/kaffe/xynth/Makefile.am,
+	M ports/kaffe/xynth/color.c,
+	M ports/kaffe/xynth/event.c,
+	M ports/kaffe/xynth/font.c,
+	M ports/kaffe/xynth/graphic.c,
+	M ports/kaffe/xynth/image.c,
+	M ports/kaffe/xynth/toolkit.h,
+	M ports/kaffe/xynth/window.c,
+	M src/lib/Makefile,
+	M src/lib/driver.c,
+	M src/lib/event.c,
+	A src/lib/expat,
+	A src/lib/expat/README,
+	A src/lib/expat/ascii.h,
+	A src/lib/expat/asciitab.h,
+	A src/lib/expat/expat.h,
+	A src/lib/expat/expat_config.h,
+	A src/lib/expat/expat_external.h,
+	A src/lib/expat/iasciitab.h,
+	A src/lib/expat/internal.h,
+	A src/lib/expat/latin1tab.h,
+	A src/lib/expat/nametab.h,
+	A src/lib/expat/utf8tab.h,
+	A src/lib/expat/xmlparse.c,
+	A src/lib/expat/xmlrole.c,
+	A src/lib/expat/xmlrole.h,
+	A src/lib/expat/xmltok.c,
+	A src/lib/expat/xmltok.h,
+	A src/lib/expat/xmltok_impl.c,
+	A src/lib/expat/xmltok_impl.h,
+	A src/lib/expat/xmltok_ns.c,
+	M src/lib/font.c,
+	M src/lib/grlib.c,
+	M src/lib/image_png.c,
+	M src/lib/socket.c,
+	M src/lib/surface.c,
+	M src/lib/window.c,
+	A src/lib/xml.c,
+	M src/lib/xynth.h,
+	M src/lib/xynth_.h,
+	M src/server/event.c,
+	M src/server/server.c,
+	M src/server/server.h,
+	M src/server/socket.c,
+	M src/server/theme.c,
+	M src/widget/Makefile,
+	M src/widget/button.c,
+	M src/widget/checkbox.c,
+	M src/widget/frame.c,
+	A src/widget/listbox.c,
+	M src/widget/listbox.c,
+	M src/widget/object.c,
+	M src/widget/progressbar.c,
+	M src/widget/scrollbuffer.c,
+	M src/widget/textbox.c,
+	M src/widget/widget.h,
+	M src/widget/widgetc/gen_code.c,
+	M src/widget/widgetc/gen_header.c,
+	M src/widget/widgetc/lang.c,
+	M src/widget/widgetc/list.c,
+	M src/widget/widgetc/list.h,
+	M src/widget/widgetc/node.c,
+	M src/widget/widgetc/node.h,
+	M src/widget/widgetc/parse.c,
+	M src/widget/widgetc/widgetc.c,
+	M src/widget/widgetr/Makefile,
+	M src/widget/widgetr/code.c,
+	M src/widget/widgetr/js.c,
+	D src/widget/widgetr/list.c,
+	D src/widget/widgetr/list.h,
+	M src/widget/widgetr/widgetr.c,
+	M src/widget/window.c:
+	
+	so many changes, bug fixes, speed and size improvements.
+
+Tue 28 Nov 2006 02:21:01 PM EET
+	* M Makefile.cfg.mingw,
+	  M Makefile.parse,
+	  M demo/desktop/desktop.c,
+	  M demo/desktop/menu.c,
+	  M demo/desktop/taskbar.c,
+	  M demo/load/load.c,
+	  M demo/onscreenkeyboard/onscreenkeyboard.c,
+	  M demo/term/term.c,
+	  M demo/widgetx/Makefile,
+	  M demo/widgetx/widgetx.xml,
+	  M demo/xynthlogout/xynthlogout.c,
+	  M ports/kaffe/xynth/font.c,
+	  M ports/kaffe/xynth/graphic.c,
+	  M src/Makefile,
+	  M src/configs/xynth.conf,
+	  M src/lib/Makefile,
+	  M src/lib/client.c,
+	  M src/lib/font.c,
+	  A src/lib/gettext.c,
+	  M src/lib/grlib.c,
+	  M src/lib/image.c,
+	  M src/lib/mem.h,
+	  M src/lib/rect.c,
+	  M src/lib/xynth.h,
+	  M src/server/Makefile,
+	  M src/server/video/fb/server.c,
+	  M src/server/video/helper/helper.h,
+	  M src/server/video/helper/irman.c,
+	  A src/server/video/helper/irserial.c,
+	  M src/server/video/helper/modes.c,
+	  M src/server/window.c,
+	  D src/templates,
+	  M src/themes/keramik/Makefile,
+	  M src/themes/microgui/Makefile,
+	  M src/themes/silverado/Makefile,
+	  M src/widget/Makefile,
+	  M src/widget/button.c,
+	  M src/widget/checkbox.c,
+	  M src/widget/editbox.c,
+	  M src/widget/frame.c,
+	  M src/widget/object.c,
+	  M src/widget/progressbar.c,
+	  A src/widget/scrollbuffer.c,
+	  M src/widget/textbox.c,
+	  M src/widget/widget.h,
+	  M src/widget/widgetc.c,
+	  M src/widget/window.c,
+	  A tools/gettext,
+	  A tools/gettext/xgettext2xml.sh,
+	  M tools/optimize/xynth.sh :
+
+	speed and memory optimizations, irserial, new modes, self gettext,
+	scrollbuffer, ...
+
+Thu 16 Nov 2006 01:24:54 PM EET
+	* M Makefile.cfg.mingw,
+	  M demo/desktop/desktop.c,
+	  M demo/desktop/menu.c,
+	  M demo/desktop/taskbar.c,
+	  M demo/load/load.c,
+	  M demo/onscreenkeyboard/onscreenkeyboard.c,
+	  M demo/term/term.c,
+	  M demo/widgetx/Makefile,
+	  M demo/widgetx/widgetx.xml,
+	  M demo/xynthlogout/xynthlogout.c,
+	  M ports/kaffe/xynth/font.c,
+	  M ports/kaffe/xynth/graphic.c,
+	  M src/Makefile,
+	  M src/configs/xynth.conf,
+	  M src/lib/font.c,
+	  M src/lib/grlib.c,
+	  M src/lib/image.c,
+	  M src/lib/mem.h,
+	  M src/lib/rect.c,
+	  M src/lib/xynth.h,
+	  M src/server/Makefile,
+	  M src/server/window.c,
+	  D src/templates,
+	  M src/themes/keramik/Makefile,
+	  M src/themes/microgui/Makefile,
+	  M src/themes/silverado/Makefile,
+	  M src/widget/Makefile,
+	  M src/widget/button.c,
+	  M src/widget/checkbox.c,
+	  M src/widget/editbox.c,
+	  M src/widget/frame.c,
+	  M src/widget/object.c,
+	  M src/widget/progressbar.c,
+	  M src/widget/textbox.c,
+	  M src/widget/widget.h,
+	  M src/widget/widgetc.c,
+	  M src/widget/window.c,
+	  M tools/optimize/xynth.sh :
+
+	changes especially for widget lib, and some speed optimizations for
+	grlib, image, rectangle.
+
+Fri 27 Oct 2006 12:42:17 PM EEST
+	* M Makefile.cfg.linux.single,
+	  M Makefile.parse,
+	  M demo/desktop/cfg/desktop.cfg,
+	  M demo/widgetx/widgetx.c,
+	  M demo/widgetx/widgetx.xml,
+	  M ports/ports.sh,
+	  A ports/mplayer/MPlayer-1.0rc1-xynth.diff,
+	  D ports/mplayer/MPlayer-1.0pre8-xynth.diff,
+	  M src/lib/font.c,
+	  M src/lib/xynth.h,
+	  M src/server/Makefile,
+	  M src/server/single.c,
+	  M src/widget/Makefile,
+	  M src/widget/editbox.c,
+	  M src/widget/listbox.c,
+	  M src/widget/progressbar.c,
+	  M src/widget/textbox.c,
+	  M src/widget/widget.h,
+	  M src/widget/widgetc.c :
+	
+	multiline textbox, widget xml precompiler, new widgetxml demo, mplayer
+	patch update, add widget xml demo to desktop menu, and signle app list.
+
+Mon 23 Oct 2006 02:07:59 AM EEST
+	* M Makefile.cfg,
+	  M Makefile.cfg.linux,
+	  M Makefile.parse,
+	  M Makefile.rules,
+	  M demo/Makefile,
+	  M demo/object/object.c,
+	  A demo/widgetx,
+	  A demo/widgetx/Makefile,
+	  A demo/widgetx/widgetx.c,
+	  A demo/widgetx/widgetx.xml,
+	  M src/lib/event.c,
+	  M src/lib/grlib.c,
+	  M src/lib/socket.c,
+	  M src/lib/timer.c,
+	  M src/lib/xynth.h,
+	  M src/server/Makefile,
+	  M src/server/kbd.c,
+	  M src/server/single.c,
+	  M src/server/video/helper/helper.h,
+	  A src/server/video/helper/irman.c,
+	  A src/server/video/helper/irman.h,
+	  M src/server/video/sdl/server.c,
+	  M src/themes/Makefile,
+	  M src/themes/keramik/Makefile,
+	  A src/themes/keramik/keramik.c,
+	  M src/themes/microgui/Makefile,
+	  A src/themes/microgui/microgui.c,
+	  M src/themes/silverado/Makefile,
+	  A src/themes/silverado/silverado.c,
+	  M src/widget/Makefile,
+	  M src/widget/button.c,
+	  A src/widget/checkbox.c,
+	  M src/widget/combobox.c,
+	  M src/widget/frame.c,
+	  M src/widget/listbox.c,
+	  M src/widget/object.c,
+	  M src/widget/progressbar.c,
+	  D src/widget/radiobutton.c,
+	  M src/widget/scrollbar.c,
+	  M src/widget/textbox.c,
+	  M src/widget/widget.h,
+	  A src/widget/widgetc.c,
+	  M src/widget/window.c :
+
+	so much change...
+
+Sun 08 Oct 2006 04:51:54 PM EEST
+	* M src/lib/grlib.c,
+	  M src/lib/driver.c,
+	  M src/lib/xynth.h,
+	  M src/lib/mem.h :
+	
+	much more optimization
+
+Sun 08 Oct 2006 02:26:57 AM EEST
+	* M src/lib/grlib.c,
+	  M src/lib/driver.c,
+	  M src/lib/xynth.h,
+	  M src/lib/mem.h :
+	
+	ugly but a much much more optimized version of s_putboxpartalpha
+
+Sat 07 Oct 2006 01:58:37 AM EEST
+	* M src/widget/frame.c,
+	  M src/widget/textbox.c,
+	  M src/lib/grlib.c,
+	  M src/lib/xynth.h :
+	
+	new functions s_putboxrga(), and s_putboxpartrgba().
+	fixed minor bug with image alpha blending in frames and textboxes.
+
+Wed 04 Oct 2006 12:51:26 PM EEST
+	* M src/server/kbd.c,
+	  M src/server/server.c,
+	  M src/server/server.h,
+	  M src/server/video/helper/kbd.c,
+	  M src/server/video/helper/console.c,
+	  M src/server/video/helper/helper.h,
+	  M src/server/video/helper/mouse.c,
+	  M src/server/video/gp2x/kbd.c,
+	  M src/server/video/gp2x/event.c,
+	  M src/server/video/gp2x/gp2x.h,
+	  M src/server/video/gp2x/server.c,
+	  M src/server/video/gp2x/mouse.c,
+	  M src/server/video/svga/server.c,
+	  M src/server/video/pspdev/kbd.c,
+	  M src/server/video/pspdev/event.c,
+	  M src/server/video/pspdev/pspdev.h,
+	  M src/server/video/pspdev/server.c,
+	  M src/server/video/pspdev/mouse.c,
+	  M src/server/video/sdl/kbd.c,
+	  M src/server/video/sdl/server.c,
+	  M src/server/video/sdl/sdl.h,
+	  M src/server/video/sdl/mouse.c,
+	  M src/server/video/gdi/kbd.c,
+	  M src/server/video/gdi/server.c,
+	  M src/server/video/gdi/mouse.c,
+	  M src/server/video/fb/server.c,
+	  M src/server/video/null/null.h,
+	  M src/server/video/null/kbd.c,
+	  M src/server/video/null/mouse.c,
+	  M src/server/video/null/server.c,
+	  M src/server/video/vesa/server.c,
+	  M src/server/mouse.c :
+	
+	corrections on input driver handling.
+
+Sun 01 Oct 2006 04:48:03 AM EEST
+	* M demo/load/load.c,
+	  M demo/term/term.c,
+	  M demo/desktop/menu.c,
+	  M demo/desktop/taskbar.c,
+	  M demo/desktop/desktop.c,
+	  M demo/img/img.c,
+	  M src/widget/window.c,
+	  M src/widget/button.c,
+	  M src/lib/pollfd.c,
+	  M src/lib/xynth.h,
+	  M src/lib/socket.c,
+	  M src/server/kbd.c,
+	  M src/server/server.c,
+	  M src/server/server.h,
+	  M src/server/event.c,
+	  M src/server/video/helper/kbd.c,
+	  M src/server/video/gp2x/kbd.c,
+	  M src/server/video/gp2x/gp2x.h,
+	  M src/server/video/gp2x/server.c,
+	  M src/server/video/svga/server.c,
+	  M src/server/video/pspdev/server.c,
+	  M src/server/video/sdl/server.c,
+	  M src/server/video/gdi/server.c,
+	  M src/server/video/fb/server.c,
+	  M src/server/video/null/server.c,
+	  M src/server/video/vesa/server.c,
+	  M src/server/socket.c,
+	  M src/server/mouse.c :
+	
+	video input drivers (keybd, mouse, etc..) are generic from now on.
+
+Sat 30 Sep 2006 12:50:40 AM EEST
+	* M Makefile.parse,
+	  M src/server/Makefile,
+	  A src/server/cursor.h,
+	  M src/server/mouse.c,
+	  M src/server/server.h,
+	  M src/server/video/fb/server.c,
+	  M src/server/video/gdi/server.c,
+	  M src/server/video/gdi/gdi.h
+	  M src/server/video/gdi/mouse.c
+	  M src/server/video/gp2x/event.c
+	  M src/server/video/gp2x/gp2x.h
+	  M src/server/video/gp2x/server.c
+	  M src/server/video/gp2x/mouse.c
+	  D src/server/video/helper/cursor.c,
+	  D src/server/video/helper/cursor.h,
+	  M src/server/video/helper/helper.h,
+	  M src/server/video/helper/mouse.c,
+	  M src/server/video/null/mouse.c,
+	  M src/server/video/null/null.h,
+	  M src/server/video/null/server.c,
+	  M src/server/video/pspdev/event.c
+	  M src/server/video/pspdev/pspdev.h
+	  M src/server/video/pspdev/server.c
+	  M src/server/video/pspdev/mouse.c
+	  M src/server/video/sdl/mouse.c,
+	  M src/server/video/sdl/sdl.h
+	  M src/server/video/sdl/server.c,
+	  M src/server/video/svga/server.c,
+	  M src/server/video/vesa/server.c :
+	 
+	cursor is used every where, it is not a helper functionalty, it is
+	common.
+	mouse range get and set belongs to server, not helper
+
+Thu 14 Sep 2006 09:51:37 PM EEST
+	* M demo/object/object.c,
+	  A src/widget/editbox.c,
+	  M src/widget/window.c,
+	  M src/widget/widget.h,
+	  M src/widget/frame.c,
+	  M src/widget/Makefile,
+	  M src/widget/textbox.c :
+	  
+	new editbox widget
+
+Thu 14 Sep 2006 02:35:18 PM EEST
+	* M AUTHORS,
+	  M src/lib/grlib.c,
+	  M src/server/video/helper/helper.h,
+	  M src/server/video/helper/modes.c,
+	  M src/server/video/fb/server.c,
+	  M Makefile :
+	  
+	18 bitsperpixel support for dummy lcd displays. this is only for fbdev
+	video driver, and could be easily added to others if needed. this
+	patch comes from Ali Utku Selen, and he is added to the pacthers list.
+
+Wed 13 Sep 2006 07:35:42 PM EEST
+	* M src/server/server.c,
+	  M src/server/server.h,
+	  M src/server/video/fb/timing.c,
+	  M src/configs/xynth.conf :
+	  
+	additional timing setting to set by hand, i hope this will handle fb
+	unable to put errors, if you know the correct values.
+
+Tue 12 Sep 2006 07:27:10 PM EEST
+	* M demo/object/object.c,
+	  M src/widget/object.c,
+	  M src/widget/window.c,
+	  M src/widget/widget.h,
+	  M src/widget/textbox.c,
+	  M src/lib/grlib.c,
+	  M src/lib/xynth.h :
+	 
+	new textbox class, simple but cute ;)
+
+Mon 11 Sep 2006 02:06:11 PM EEST
+	* M Makefile.cfg,
+	  M Makefile.cfg.gp2x,
+	  M Makefile.cfg.linux,
+	  M Makefile.cfg.linux.single,
+	  M Makefile.cfg.mingw,
+	  M Makefile.cfg.pspdev,
+	  M Makefile.parse,
+	  M demo/Makefile,
+	  M demo/object/Makefile,
+	  M demo/object/object.c,
+	  D demo/widget,
+	  M src/lib/Makefile,
+	  D src/lib/button.c,
+	  D src/lib/frame.c,
+	  D src/lib/object.c,
+	  M src/lib/xynth.h,
+	  M src/widget/Makefile,
+	  A src/widget/button.c,
+	  D src/widget/button.cpp,
+	  A src/widget/frame.c,
+	  D src/widget/frame.cpp,
+	  D src/widget/handler.cpp,
+	  D src/widget/layout.cpp,
+	  A src/widget/object.c,
+	  D src/widget/object.cpp,
+	  D src/widget/rect.cpp,
+	  M src/widget/widget.h,
+	  D src/widget/window.cpp :
+	  
+	removed c++ widget library, c is enough for every one. developing a
+	brand new c widget library.
+
+Sun 10 Sep 2006 07:08:02 PM EEST
+        * demo/object/object.c,
+	  src/lib/object.c,
+	  src/lib/button.c,
+	  src/lib/xynth.h,
+	  src/lib/alloc.c,
+	  src/lib/frame.c :
+	  
+	more for object
+
+Fri 08 Sep 2006 11:24:40 PM EEST
+	* demo/object/object.c,
+	  src/lib/object.c,
+	  src/lib/button.c,
+	  src/lib/Makefile,
+	  src/lib/xynth.h,
+	  src/lib/event.c,
+	  src/lib/frame.c :
+	  
+	new c widgets base classes, too much work to do...
+	objects have their events, buffers, etc..
+
+Fri 08 Sep 2006 12:36:12 PM EEST
+	* demo/object/object.c,
+	  src/lib/object.c,
+	  src/lib/xynth.h :
+	  
+	object_atposition, etc...
+
+Thu 07 Sep 2006 12:53:01 PM EEST
+	* rev : 306
+	* demo/object/object.c,
+	  src/lib/object.c,
+	  src/lib/xynth.h :
+	  
+	changed s_object_t, from now on every object must give its draw function
+	this is a small step for built in c widgets.
+
+Wed 06 Sep 2006 01:49:15 PM EEST
+	* rev : 300
+	* : released v0.8.40
+
+Thu 17 Aug 2006 04:13:26 PM EEST
+	* rev : 270
+	* Makefiles : some changes
+	* ports/kaffe : kaffe-cvs-xynth.diff for fresh copy
+
+Fri 04 Aug 2006 12:26:11 PM EEST
+	* rev : 258
+	* ports/kaffe : upgraded to kaffe-1.1.7.
+	* video/fb/timing.c : applied Jim Huang (jserv@kaffe.org)`s round patch.
+	and changed sdl quit implementation as he suggested.
+	* lib/font.c : some corrections
+
+Wed 02 Aug 2006 04:52:41 PM EEST
+	* rev : 250
+	* lib/grlib.c : minor fixes, and new s_line(...) function
+	* lib/socket.c, lib/event.c server/socket.c, server/event.c : new events
+	CONFIG_EVENT, FOCUS_EVENT, MOUSE_ENTERED, MOUSE_EXITED
+	* demo/taskbar : minor fixes
+	* ports/kaffe : works! (kaffe-1.1.6)
+
+Mon 17 Jul 2006 04:08:02 PM EEST
+	* rev : 184
+	* Makefiles : brand new build system
+	* ~*.c : minor api fixes (not important)
+	* doxygen : added some more api doc
+	* client.c : fixed a small leak
+
+Fri 07 Jul 2006 04:30:09 PM EEST
+	* rev: 173
+	* lib/grlib.c : minor correction for rotate
+	* widget/object.cpp : notation fix for old compilers
+	* lib/thread*.c : minor changes for thread layer
+	* ports/ports.sh, ports/sdl/SDl-1.2.10.diff: minor corrections
+	* server/single.c : name correction
+
+Sun 02 Jul 2006 06:30:56 PM EEST
+	* ports/mplayer: patch upgrade for MPlayer-1.0pre8
+	* : more work on socket data transfer, removed SOC_DATA_CURSOR, cursor
+	changes will be handled in SOC_DATA_CONFIGURE.
+	* : every window has its own cursor attributes, switching among clients
+	will switch the cursor if needed.
+	* helper/modes.c : added mode 240x320
+	* lib/grlib.c : s_rotatebox ;) rotates a box with the degrees of 90,
+	180, 270, -90, -180, -270
+	* server/server.c : rotating the screen is possible with xynth.conf from
+	now on.
+
+Thu 22 Jun 2006 04:39:43 PM EEST
+	* demo/onscreenkeyboard : some improvements
+	* video/helper/kbd.c : keycode flag fixes for special keys
+	* demo/desktop : added osk
+	* server/event.c, server/priority.c, server/window.c, server/socket.c :
+	possible buffer overflow fix.
+
+Sun 11 Jun 2006 05:10:12 AM EEST
+	* demo/onscreenkeyboard, Makefile.cfg.*, server/single.c : new on screen
+	keyboard demo.
+	* lib/xynth.h, lib/socket.c : remote event.
+	* server/server.h, server/event.c, server/socket.c : remote event.
+	* lib/image.c : minor bug fix for image_get_handler()
+
+Wed 07 Jun 2006 12:41:09 AM EEST
+	* ports/links, ports.sh : upgrade to link-2.1pre22
+	* lib/rect.c : simplified s_rect_difference function
+
+Sat 20 May 2006 03:02:09 AM EEST
+	* xynth_.h : changed socklen_t to unsigned int, and included select.h
+	in socket emulation via pipe.
+	* ports.sh : added some help text
+	* xynth.h : added s_thread_* api to doxy-doc
+	* doxy-doc : some wording fixes.
+	* freetype2 : upgraded to freetype 2.2.1
+	* term : minor fixes for term demo
+	* window_move_resize.c : minor fix for move resize lines on slow cpu.
+	* ports/sdl, ports.sh : upgrade to sdl-1.2.10
+
+Sun 30 Apr 2006 12:59:16 AM EEST
+	* video/gp2x : some fixes.
+	* server/surface.c : much more cleaning.
+	* lib/socket.c, server/socket.c : removed soc_data_desktop request from
+	clients, soc_data_show will handle this feature from now on. prepared
+	a brand new s_soc_data_show_t struct, too.
+
+Tue 25 Apr 2006 03:11:01 PM EEST
+	* video/gdi : minor fix
+	* server/window_move_resize.c, server/mouse.c : no need to delete
+	before calling SURFACE_REDRAW, thus it  will delete and update.
+	* server/surface.c : cleaned up.
+	* lib/client.c : cosmetic.
+
+Fri 21 Apr 2006 04:42:38 PM EEST
+	* : some fixes for platform GP2X. fixed theme_static.h, some
+	portability changes for sem_crate in threads.c. some more change
+	in socket data transfer for desktop data.
+
+Mon 17 Apr 2006 11:16:15 PM EEST
+	* : removed soc_data_hide, soc_data_show will handle those priority
+	changes from now on. at last focusing on any level is possible.
+	SOC_DATA_STREAM is useless, SOC_DATA_EXPOSE handles streaming (if
+	needed) from now on.
+
+Sun 16 Apr 2006 02:25:16 AM EEST
+	* : added s_rect_t, and s_config_*_t struct, api to the doxy-doc
+
+Sat 15 Apr 2006 08:17:13 AM EEST
+	* : so many changes...
+
+Thu 13 Apr 2006 09:38:09 PM EEST
+	* : some more on data transfer, removed SOC_DATA_TITLE,
+	SOC_DATA_CONFIGURE is enough for everyone.
+
+Mon 10 Apr 2006 10:34:50 PM EEST
+	* : more changes on data transfer. removed useless
+	SOC_DATA_CONFIGURE_NOFORM, SOC_DATA_CONFIGURE has the same feature.
+
+Sun 09 Apr 2006 01:15:45 AM EEST
+	* : some more changes on data transfer, removed client->driver
+
+Sat 08 Apr 2006 05:14:25 AM EEST
+	* server/socket.c, lib/socket.c, server/server.c : some changes on data
+	transfer.
+
+Fri 07 Apr 2006 07:54:09 PM EEST
+	* : imported to svn
+
+Tue 04 Apr 2006 09:15:55 PM EEST
+	* ports/links : updated to links-2.1pre21
+
+Mon 03 Apr 2006 07:32:28 PM EEST
+	* lib/rectangle.c, server/surface.c : minor optimizations
+
+Sat 01 Apr 2006 01:15:27 AM EEST
+	* lib/xynth.h : added list struct, api to the doxygen doc.
+
+Sat 25 Mar 2006 02:49:40 AM EET
+	* lib/thread_pspdev.c : fixed thread priority.
+
+Wed 22 Mar 2006 11:57:23 AM EET
+	* description-pak : added for checkinstall
+
+Fri 17 Mar 2006 14:56:19 AM EET
+	* : released v0.8.20
+
+Tue 28 Feb 2006 11:50:49 PM EET
+	* src/lib/thread_pthread.c : __UCLIBC__ patch to make xynth work
+	with uclibc.
+
+Tue 21 Feb 2006 08:14:33 PM EET
+	* demo/img : improved, added scale, full screen, slide show, etc.
+	* demo/gp2x : removed. i have some other more important stuff todo
+	(widget library, doxygen documantation, ...)
+
+Wed 15 Feb 2006 06:16:17 PM EET
+	* demo/gp2x : improvements
+
+Sat 11 Feb 2006 08:12:06 PM EET
+	* grlib.c : improvements to putboxalpha, and putboxrgba functions.
+	* demo/gp2x : new exotic demo
+	* lib/window.c : brand new function window_set_cursor()
+
+Wed 08 Feb 2006 11:45:09 PM EET
+	* grlib.c : minor corrections to draw alpha functions.
+
+Thu 02 Feb 2006 05:14:16 PM EET
+	* gp2x : xynth works on gp2x (http://wiki.gp2x.org) with little effort.
+
+Sat 28 Jan 2006 02:47:55 PM EET
+	* tools/theme/Makefile : minor corrections.
+	* src/* : started to write doxygen comments. make doxy-doc prepares a
+	simple but good reference manual. so much to do.
+	* ports/MPlayer : software scaler works very good on bir res`. ex: no
+	delay while scaling 320x240 to 1024x768 divx.
+
+Tue 24 Jan 2006 06:05:26 PM EET
+	* ports/MPlayer : speed improvements for sw_scale.
+
+Mon 23 Jan 2006 11:44:21 PM EET
+	* ports/MPlayer : added fullscreen capabilities. slow on big res becouse
+	of using software scaler, but is a good start.
+
+Sun 22 Jan 2006 03:07:02 AM EET
+	* Makefile* : changed shell commands from `command` to $(shell command)
+
+Thu 19 Jan 2006 12:26:32 AM EET
+	* thread_pthreads.c : minor correction for better mingw compability.
+
+Wed 18 Jan 2006 04:58:45 PM EET
+	* server/start.c : we do not need xynth.conf with PSPDEV video.
+	* lib/xynth_.h : changed debugf defination. reduced binary size.
+
+Mon 09 Jan 2006 05:10:42 PM EET
+	* demo/desktop: speed improvements.
+	* src/server : changed Makefile.
+	* lib/client.c : changed the order for uniniting.
+
+Sat 07 Jan 2006 01:22:29 AM EET
+	* demo/desktop : added text_color, and corrected usage of background
+	color with background image.
+	* *: updated copyrights for 2006.
+
+Fri 06 Jan 2006 01:12:31 AM EET
+	* ports/links : updated patch to links-2.1pre20, and updated ports.sh
+
+Fri 06 Jan 2006 01:12:11 AM EET
+	* : released v0.8.00
+
+Thu 05 Jan 2006 12:07:35 AM EET
+	* mingw : changed Makefiles for easy installing.
+
+Tue 03 Jan 2006 11:40:59 PM EET
+	* video/gdi : a new working video driver is ready to use, with
+	fullscreen capabilities.
+
+Sat 31 Dec 2005 02:44:22 AM EET
+	* video/gdi : some corrections to bitbl and DC handling. now works OK.
+
+Fri 30 Dec 2005 04:22:12 PM EET
+	* video/gdi : ;) caglar managed to open xynth on ms-windows. does not
+	work on sp2, yet.
+
+Tue 27 Dec 2005 05:41:43 PM EET
+	* svga/server.c, vesa/server.c, helper/mtrr.c : moved mtrr function to
+	a new file:helper/mtrr.c
+
+Sat 24 Dec 2005 01:55:57 AM EET
+	* vesa/lrmi : updated to version 0.10
+	* vesa/server.c : ugly hack to make mtrr work again.
+	* valgrind: patched valgrind to make it work with vm86old syscall. at
+	last i can check vesa & svgalib driver with valgrind.
+
+Tue Dec 20 16:38:58 2005
+	* gettime.c : s_gettime(); changed return type from long to long long,
+	and updated files that use s_gettime.
+
+Mon 19 Dec 2005 10:43:33 PM EET
+	* font.c : s_font_set_rgb (...);
+	* grlib.c : void s_putboxpartalpha (...);
+                    void s_putboxpartrgba (...);
+	* : updated files to use these functions. mostly used for s_image_t and
+	s_font_t.
+
+Fri 16 Dec 2005 10:24:28 PM EET
+	* license : replaced GPL License information with LGPL License
+	information as Xynth is LGPL licensed. sorry for the forgotten COPYING
+	texts.
+
+Thu 15 Dec 2005 07:21:09 PM EET
+	* demo/xynthlogout : new demo
+
+Wed Dec 14 13:47:15 2005
+	* mingw : initial start for mingw port from caglar.
+	* video/sdl/server.c : applied Jim Huang (jserv@kaffe.org)`s patch.
+	--- xynth/src/server/video/sdl/server.c.orig	2005-12-14 10:47:03.000000000 +0800
+	+++ xynth/src/server/video/sdl/server.c	2005-12-14 10:53:12.000000000 +0800
+	@@ -168,7 +168,6 @@ int s_video_sdl_server_init (s_server_co
+	#endif
+		server->window->surface->linear_mem_base = (unsigned int) addr;
+		server->window->surface->linear_mem_size = (unsigned int) (sizeof(char) * server->window->surface->width * server->window->surface->height * server->window->surface->bytesperpixel);
+	-	s_free(priv->screen->pixels);
+ 		priv->screen->pixels = (char *) addr;
+ 		server->window->surface->vbuf = (char *) addr;
+ 		server->window->surface->linear_buf = (char *) addr;
+
+Fri 09 Dec 2005 06:28:42 PM EET
+	* demo/desktop.c : removed forgotten #if 1
+
+Fri Dec  9 16:05:26 2005
+	* ports/ : moved patches.
+	* ports/ports.sh : guess what, download, patch, compile tool for ported
+	applications/libraries.
+	* ports/links : patch update for gcc-2.95 compability.
+
+Thu 08 Dec 2005 07:50:10 PM EET
+	* v0.7.90 : new release.
+
+Thu 08 Dec 2005 06:17:30 PM EET
+	* tools/gtk : patch update. gtk+-2.4.14
+
+Fri 02 Dec 2005 02:36:51 PM EET
+	* tools/links : patch update, links-2.1pre19
+	* tools/sdl : patch update, SDL-1.2.9
+	* tools/mplayer : patch update, MPlayer-1.0pre7try2
+
+Tue 29 Nov 2005 04:29:55 PM EET
+	* server/video/* : name corrections
+
+Tue 29 Nov 2005 12:34:50 AM EET
+	* lib/thread_mutex_emul.c, lib/thread_pthreads.c, lib/thread_pspdev.c :
+	for easy editing.
+
+Mon 28 Nov 2005 06:28:08 PM EET
+	* lib/socket_api.c, lib/socket_bsd.c, lib/socket_pipe.c : for easy
+	editing
+	* lib/pipe_api.c, lib/pipe_posix.c, lib/pipe_mem.c : for easy editing
+
+Sat 15 Oct 2005 12:50:22 AM EEST
+	* lib/libz : imported zlib
+	* lib/libpng : imported libpng
+	* : cleaned makefiles
+
+Fri Oct 14 01:04:38 2005
+	* lib/freetype2 : imported freetype2 for portability
+	* lib/client.c : uninit improvement
+
+Wed Oct  5 18:37:12 2005
+	* lib/alloc.c : for profiling, and easy error handling.
+	* lib/debug.c : much more clever.
+
+Tue Oct  4 00:25:35 2005
+	* demo/desktop/*.c : minor speed improvements.
+
+Sun 25 Sep 2005 09:12:06 PM EEST
+	* demo/desktop/taskbar.c : decreased IO operations.
+
+Fri Sep 23 18:56:52 2005
+	* video/pspdev : ;)
+	* lib/thread.c : corrections to condition variables emulation.
+	* lib/socket_sys.c : minor bug fix (s_socket_sys_pipe_poll_emul())
+
+Thu Sep 15 10:44:20 2005
+	* : minor corrections.
+
+Tue Sep 13 11:35:25 2005
+	* lib/socket_sys.c : speed imrovements for pipe emulation.
+
+Fri Sep  9 15:37:16 2005
+	* lib/socket_sys.c : good news ;) scoket && pipe emulation over memory
+	works great. from now on xynth is able to work on any system, even
+	there is no socket, pipe, poll, or file descriptor.
+	* video/sdl/mouse.c : minor correction.
+	* video/sdl/server.c : minor bug-fix.
+
+Tue Sep  6 01:22:25 2005
+	* lib/socket.sys : minor corrections
+
+Sun 04 Sep 2005 01:36:02 AM EEST
+	* lib/socket_sys.c : fixed memory leak, and invalid addr read in socket
+	api emulation (socket_pipe_poll()).
+	* demo/term.c : fixed memory leak during font_*() calls.
+	* server/server.c, lib/surface.c : no need for shm while in single_app.
+
+Fri Sep  2 19:09:34 2005
+	* : improvements on build system.
+	* demo/martin : removed demo martin, it is useless. object demo is
+	enough.
+	* demo/*/*.c, sever/single.c : perfectly linking in single binary. (if
+	SINGLE_APP option is Y in Makefile.cfg)
+	* server/window.c : minor bug fix in window_title(...)
+
+Tue 30 Aug 2005 02:03:13 AM EEST
+	* lib/socket_sys.c : memory based socket api implementation using pipes.
+	if clients and server linked in single app, there is no need for UDS or
+	TCP/IP. cute! not stable, but a good start. next step will be emulating
+	pipes with mutex and condition variable.
+
+Fri 26 Aug 2005 12:05:42 AM EEST
+	* lib/rect.c : removed rectangle.h, and static rectangle functions.
+	binary size reduced.
+	* server/prority.c : removed difference finder for matrix addition.
+
+Wed Aug 24 19:14:55 2005
+	* server/window.c : reduced code/binary size.
+	* lib/image_xpm.c : minor corrections.
+	* video/helper : reduced code/binary size, much more clever makefile.
+	* makefile.cfg : much more clever.
+	* lib/socket_sys.c : name change
+	* lib/thread.c : new functions, no more -lrt dependency.
+	* lib/grlib.c : reduced binary size.
+	* lib/surface.c : reduced binary size.
+
+Tue Aug 23 18:16:21 2005
+	* : some corrections to build system.
+
+Tue Aug 16 12:18:10 2005
+	* socket.c : improvements for poll emulation
+
+Sun 14 Aug 2005 01:53:51 AM EEST
+	* demo/taskbar.c : bug-fix
+	* video/generic/modes.c : bug-fix
+	* video/ps2sdk : removed. xynth-735 has ps2sdk support.
+
+Sat 13 Aug 2005 05:14:13 AM EEST
+	* video/* : size reduce, and some improvements.
+	* video/vesa/* : vesa support.
+	* server : removed HW_CURSOR.
+
+Fri Jul 29 13:22:21 2005
+	* lib/event.c : some corrections for handling handlers.
+	* : mutexed handlers, pollfds.
+
+Wed 27 Jul 2005 12:35:34 AM EEST
+	* desktop.c : some improvements, start menu ;)
+
+Sun 24 Jul 2005 02:22:51 AM EEST
+	* priority.c : perfomance improvement
+	* window_move_resize.c : avoid flickering while movement
+
+Fri Jul 15 18:50:43 2005
+	* : minor corrections
+	* image_gif, img.c : gif support and a new demo
+
+Tue 28 Jun 2005 09:27:39 PM EEST
+	* : some corrections.
+
+Sat 28 May 2005 02:54:22 PM EEST
+	* priority.c : fixed stack problem due to recursiveness.
+	* timer.c : ;)
+
+Mon 16 May 2005 08:25:53 PM EEST
+	* *: minor bug fixes. ps2dev strikes back!
+
+Thu 12 May 2005 07:37:08 PM EEST
+	* socket.c : streaming vbuf. cute! multi threaded s_socket_request bug
+	fixed.
+	* sdl/server.c : minor bug fix surface_update()
+
+Tue 10 May 2005 11:40:55 PM EEST
+	* socket.c : some improvements to ipc tcp.
+
+Tue 10 May 2005 09:38:51 PM EEST
+	* *: removed ps2dev port ;) lots of changes and lots of pain..
+	xynth-v890 has support 'primitive' for ps2dev. at least start works.
+
+Thu 28 Apr 2005 06:45:13 PM EEST
+	* socket.c : support for TCPIP IPC
+	* * : ps2dev ;) first start
+
+Wed 16 Mar 2005 07:12:40 PM EET
+	* priority.c : almost re written. might be a bit slower, but much
+	more reliable and small.
+	* rectangle.h : added two more differences 3! && 5!
+
+Mon 14 Mar 2005 11:49:25 AM EET
+	* object.c : improved but not finished objects.
+
+Fri 11 Mar 2005 11:06:09 AM EET
+	* socket.c, priority.c, window.c : some corrections.
+	* object.c : objects ;)
+	* hide.c : new demo
+	* martin.c : new demo
+
+Fri 18 Feb 2005 09:00:47 PM EET
+	* *.c : so many changes ;)
+
+Sat 12 Feb 2005 04:41:32 AM EET
+	* config.c : configuration file parser, and a conf file ;)
+
+Fri 11 Feb 2005 01:45:42 PM UTC
+	* fb/surface.c : minor bug fix for 8bpp modes.
+
+Tue 18 Jan 2005 11:38:16 PM EET
+	* mouse.c : minor bug fix.
+
+Mon 17 Jan 2005 02:55:13 PM UTC
+	* mines.cpp : minor bug fixes.
+
+Fri 14 Jan 2005 02:09:16 PM UTC
+	* mouse.c : a small correction to s_server_cursor_position(...) for
+	SOFT_CURSOR
+
+Thu 13 Jan 2005 05:08:39 PM UTC
+	* event.c : made windows know their focus changes.
+	* priority.c, socket.c, window.c : some corrections about window
+	closing, and temp windows.
+
+Thu 06 Jan 2005 07:06:23 PM UTC
+	* xynth_.h : new print_debug function. prints more information.
+	* widget : the very first step for our own c++ widget library, and
+	a demo (mines, widget) to show the use.
+
+Wed 24 Nov 2004 11:47:14 AM UTC
+	* grlib.c : minor bug fixes.
+
+Thu 18 Nov 2004 05:40:56 PM UTC
+	* kbd.c : changed button type.
+
+Fri 08 Oct 2004 03:34:51 PM EEST
+	* *.c: bug fixes, optimizations, new demos...
+
+Fri 23 Jul 2004 07:41:38 PM EEST
+	* window.c: get rid of min, max variables.
+	* grlib.c, driver.c: bug fixes, which will never occur.
+	* : redused size ~= 80K server, ~40K lib
+
+Thu 22 Jul 2004 11:40:28 AM EEST
+	* priority.c : bug fix for silly themes.
+
+Sun 18 Jul 2004 03:19:03 PM EEST
+	* : here i am with so many changes, re-writes. server-client system
+	is almost finished. some minor things are pending : font routines must
+	be changed becouse the working one has some leak problems (I do not
+	know why ;) anyway, we wont use bdf font anymore, the freetype library
+	is small and relleable enough to use. And, kbd.c & kaymap file must
+	be changed; i need a complete enumarator list, second step will be
+	reducing the memory usage for kbd.c. Not much work to do... in 1-2
+	months we will have a perfect server-client system + gtkv2 + sdl +
+	various programs that are directly ported. Ahh, i must prepare a color
+	palette for 8bpp drawing functions.
+
+Mon 05 Jul 2004 06:53:14 PM EEST
+	* : here and alive ;)
+
+Fri Apr  2 01:13:19 2004
+	* demo : terminal ;)
+
+Mon Mar 22 03:03:26 2004
+	* : we have window root, temp and child ;)
+
+Sun Mar 21 01:11:55 2004
+	* : WUSIWUG
+	    fuck pthreads...
+
+Fri Mar 19 03:18:57 2004
+	* : alicengiz ettim, sigpipe i ignoreladim ;)
+
+Thu Mar 18 23:19:22 2004
+	* : child, temp, kil, tuy falan...
+
+Wed Mar 17 23:17:24 2004
+	* (S&C) : What is the matrix?
+
+Thu Mar  4 01:44:02 2004
+	* (S&C) : Hah! ;)
+
+Fri Feb 27 01:48:51 2004
+	* (S&C) : changes goes on ;)
+
+Thu Feb 19 01:52:02 2004
+	* (S&C) : changes, changes, changes...
+
+Sat Feb  7 05:07:07 2004
+	* (S&C) : Life is nothing without changes ;)
+
+Sun Dec  7 04:54:15 2003
+	* (S) : theme support for windows. but needs more work.
+
+Sun Nov 23 20:11:48 2003
+	* (S&C) : events changed, event routins changed, goes on..
+
+Mon Nov 17 01:06:33 2003
+	* (S) : fixed a serious bug.
+	* (S&C) : lots of changes ;)
+
+Fri Nov  7 22:11:33 2003
+	* (S&C) : kbd almost finished.
+	* (C) : mouse release event bug fixed.
+
+Sun Nov  2 16:58:26 2003
+	* (S&C) : rcrp problem is half-way solved.
+	* (S&C) : 8-way resize.
+	* : so many changes, minor fixes, so on...
+
+Tue Oct 21 18:09:27 2003
+	* (S) : Caglar Oral prepare a "clean" low level mouse driver, orginally
+	taken from svgalib mouse driver source.
+	* (S&C) : We have wheel support for mouse if there exists.
+
+Sun Oct 19 23:39:53 2003
+	* (C) : handler functions re-visited.
+
+Sat Oct 18 19:02:50 2003
+	* (S&C) : handler struct and funcs. changed to be more usefull.
+
+Fri Oct 17 18:59:12 2003
+	* (S&C) : so many changes. and at last whole library is now threads
+	safe !.
+
+Tue Oct 14 19:41:16 2003
+	* (S&C) : some changes that are not really important.
+
+Fri Oct 10 02:49:16 2003
+	* (S) : main fbdev support almost finished ;) But still too premature.
+	I have prepared a skeleton dir. for future ports.
+
+Wed Oct  8 20:43:54 2003
+	* (S&C) : names changed, dirs changed, dirs moved, goes on... And the
+	very first step for a portable skeleton. Working on fb, but real
+	support will be with 2.6 series kernel.
+
+Sun Oct  5 23:40:37 2003
+	* (C) almost *.c : adapted all (almost) to new skeleton.
+
+Sun Oct  5 13:27:41 2003
+	* (C) surface.c : ~100% speeded surface functions up ;)
+
+Wed Sep 24 22:11:16 2003
+	* (C) surface.c : complete re-write. surface_changed works 3 times
+	faster now.
+
+Tue Sep 23 05:16:13 2003
+	* (C) handler.c : functions moved here.
+	* (C) event.c : mouse parser re-visited.
+	* (S) mouse.c : re-visited.
+	* (S) kdb.c : simple, waiting for mouse to finish.
+
+Sun Sep 21 18:18:46 2003
+	* (C) event.c : handler functions re-visited, finished (almost).
+	* (C) window.c : an important bug fix.
+
+Mon Sep  8 00:25:49 2003
+	* (S) window.c : minor correction.
+	* (C) driver.c grlib.c : some changes ;) 
+
+Sun Sep  7 17:40:01 2003
+	* (S) window.c theme.c : some corrections.
+
+Sat Sep  6 20:14:50 2003
+	* (C) driver.c : bpp1_*, bpp2_*, bpp4_* functions are working perfect
+	(almost), but I cannot test bpp3_* becouse my vgacard (nvidia TNT2 M64)
+	cant handle 24 bit modes (this is not svgalib's fault, becouse X cant
+	manage those modes for me, too).
+			 s_rgbcolor(...) ;)
+
+Sat Aug  2 03:49:37 2003
+	* (C) driver.c : ;) linear buffer drawing functions. All of them. But
+	not tested except bpp2_*.
+	* (C) mem.h : ;)
+	* (S&C) : so many additions.
+
+Wed Jul 30 19:56:45 2003
+	* (C) pixel.c : simple overlay (acts like overlay, but is not) drawing
+	functions.
+	* (C) surface.c : s_client_surface_changed(...) changed. Little slower
+	but reliable.
+
+Mon Jul 28 01:42:46 2003
+	* (C) client.h surface.c : from now on, clients do not require libvga
+	to compile.
+
+Sun Jul 27 20:00:02 2003
+	* (S&C) socket.c window.c surface.c : window root procedure changed.
+	* (S&C) socket.c : CLIENT_MAX bug fix.
+
+Wed Jul 23 02:23:42 2003
+	* (S) : trying to get server much faster.
+	* (S) window.c : some bug fixes.
+	* (S&C) socket.c : can you believe that read&write is faster than
+	send&recieve?
+
+Fri Jul 18 16:33:31 2003
+	* server : some improvements for fast window drawing, needs more work.
+
+Thu Jul 17 00:42:52 2003
+	* server : no more remaining shared memory segments from now on.
+
+Wed Jul 16 18:21:46 2003
+	* server & lib : name changed from sde to S.
+	* server window.c : some corrections.
+
+Wed Jul 16 17:42:03 2003
+	* server : some changes in theme.c
+
+Mon Jul 14 22:10:17 2003
+	* server & client : int *matrix etc. changed to char * to decrease
+	working memory space (4 byte > 1 byte). But max amount of clients is
+	now limeted to 127. Anyway who wants more than 256 ? This can be
+	changed to 255 easily with little work if needed.
+
+Fri Jul 11 19:07:18 2003
+	* : only the surface matrix is shared for now.
+	* server : matrix[][] is changed with linear marix. I think non-linear
+	one was working faster, easier than the linear one but...
+
+Fri Jul 11 18:43:23 2003
+	* : This was the second try of server client system on svgalib.
+	And the first one was using shared memory and semaphores, but
+	that was not really a server client system, the fore client was acting
+	as  server. ;) But had really embedded behaves.
+	    This one was built on socket data transfer, using UDS. But I see
+	that this is really much slower than working with shared memory. So,
+	here is the idea, from now on, sserver is using both sockets and
+	shared memory to be much more faster.
+	    Although I am using shared memory there is no need to use
+	semaphores for now. Becouse server calls clients after changing the
+	matrix.
+
+Wed Jul  9 23:22:20 2003
+	* client : done with right-left resize.
+	* server : ~= done ;)
+
+Wed Jul  9 18:56:03 2003
+	* server&client : will do window resize.
+
+Sun Jul  6 21:15:55 2003
+	* : I didnot log any of changes so far, becouse I did not think that
+	this project wil really work ;) I tried a lot of different ways to get
+	the right way. Now here I am ;) The very important change is the
+	name ;) "SServer".
+	* svgaserver : works fine.
+	* svgaclient : works fine.

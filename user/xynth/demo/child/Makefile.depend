@@ -1,0 +1,1 @@
+child.o: child.c ../../src/lib/xynth_.h ../../src/lib/xynth.h

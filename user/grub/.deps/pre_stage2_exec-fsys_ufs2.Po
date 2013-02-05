@@ -1,0 +1,19 @@
+pre_stage2_exec-fsys_ufs2.o pre_stage2_exec-fsys_ufs2.o: fsys_ufs2.c \
+  shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h filesys.h \
+  pc_slice.h ufs2.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+filesys.h:
+
+pc_slice.h:
+
+ufs2.h:

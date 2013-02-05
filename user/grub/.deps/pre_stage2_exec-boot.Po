@@ -1,0 +1,19 @@
+pre_stage2_exec-boot.o pre_stage2_exec-boot.o: boot.c shared.h \
+  ../config.h ../stage1/stage1.h mb_header.h mb_info.h freebsd.h \
+  imgact_aout.h i386-elf.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+freebsd.h:
+
+imgact_aout.h:
+
+i386-elf.h:

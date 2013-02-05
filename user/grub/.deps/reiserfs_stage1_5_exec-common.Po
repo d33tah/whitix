@@ -1,0 +1,12 @@
+reiserfs_stage1_5_exec-common.o reiserfs_stage1_5_exec-common.o:  \
+ common.c shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:

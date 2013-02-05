@@ -1,0 +1,19 @@
+ufs2_stage1_5_exec-char_io.o ufs2_stage1_5_exec-char_io.o: char_io.c \
+  shared.h ../config.h ../stage1/stage1.h mb_header.h mb_info.h term.h \
+  hercules.h serial.h
+
+shared.h:
+
+../config.h:
+
+../stage1/stage1.h:
+
+mb_header.h:
+
+mb_info.h:
+
+term.h:
+
+hercules.h:
+
+serial.h:
